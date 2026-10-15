@@ -14,7 +14,7 @@ langchain-text-splitters==0.3.8
 
 # --- LLM provider: Google Gemini (replaces AWS Bedrock) ----------------------
 # Talks to Gemini with a single GEMINI_API_KEY from Google AI Studio.
-langchain-google-genai version 4.0.0
+langchain-google-genai == 4.0.0
 
 # --- LangGraph (the agent graph runtime) -------------------------------------
 langgraph==0.2.69
