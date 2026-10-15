@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     offline_mode: bool = False
     # google gemini
     gemini_api_key:str = None
-    gemini_model:str  = 'gemini-2.0-flash'
+    gemini_model:str  = 'gemini-3.8-flash'
     temperature:float= 0.3
     max_tokens:int = 1024 # allow use llm any much as want
 
